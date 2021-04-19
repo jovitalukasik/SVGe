@@ -9,4 +9,5 @@ In this paper, we propose an approach to neural architecture search (NAS) based 
 Reference
 ---------
 This repository containts code for the paper: ["Smooth Variational Graph Embeddings for Efficient Neural Architecture Search"](https://arxiv.org/abs/2010.04683).
+
 *Authors: Jovita Lukasik, David Friede, Arber Zela, Frank Hutter, Margret Keuper*

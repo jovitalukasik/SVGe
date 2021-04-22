@@ -1,5 +1,7 @@
 # Smooth Variational Graph Embeddings for Efficient Neural Architecture Search
 
+> :warning: **We are currently preparing the code for release, which will be available here soon.**
+
 ===============================================================================
 
 Abstract

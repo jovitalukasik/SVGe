@@ -1,0 +1,10 @@
+{
+"train_data_path": "data/nb101_train.pth",
+"test_data_path":"data/nb101_test.pth", 
+"batch_size": 128, 
+"num_workers": 4, 
+"num_node_atts": 5,
+"max_num_nodes":7,
+"data_name":"NB101",
+"target":"test_acc"  
+}

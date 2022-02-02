@@ -1,0 +1,13 @@
+{
+    "train_data_path": "data/nb201_train_cifar10_valid_converged.pth",
+    "test_data_path":"data/nb201_test_cifar10_valid_converged.pth", 
+    "batch_size": 32, 
+    "num_workers": 4, 
+    "num_node_atts": 7,
+    "max_num_nodes":8,
+    "data_name":"NB201",
+    "CIFAR_100_train_data_path": "data/nb201_train_cifar100.pth",
+    "CIFAR_100_test_data_path":"data/nb201_test_cifar100.pth",
+    "ImageNet_train_data_path": "data/nb201_train_ImageNet16_120.pth",
+    "ImageNet_test_data_path":"data/nb201_test_ImageNet16_120.pth"
+    }

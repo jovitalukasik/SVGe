@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.pylint.d
+.ipynb_checkpoints/
+*.ipynb 
+
+
+# datasets/nasbench101/*
+# datasets/nasbench201/*
+# datasets/ENAS/*
+
+Extrapolation_Ability/cell_training/data/
+software/enas/data/
+
+Experiments/
+Bayesian_Optimization/res/*
+
+.vscode/
+

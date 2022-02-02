@@ -1,7 +1,8 @@
-#Smooth Variational Graph Embeddings for Efficient Neural Architecture Search
+Smooth Variational Graph Embeddings for Efficient Neural Architecture Search
+===============================================================================
 
-[Smooth Variational Graph Embeddings for Efficient Neural Architecture Search][https://arxiv.org/abs/2010.04683]\
-Jovita Lukasik, David Friede, Arber Zela, Frank Hutter, Margret Keuper.\
+["Smooth Variational Graph Embeddings for Efficient Neural Architecture Search"](https://arxiv.org/abs/2010.04683)\
+*Jovita Lukasik, David Friede, Arber Zela, Frank Hutter, Margret Keuper*.\
 IJCNN 2021
 
 ## Abstract 
@@ -14,8 +15,8 @@ pip install -r requirements.txt
 ```
 
 ## Datasets 
-You can download the ENAS dataset  [here](https://drive.google.com/file/d/1_BJLYq-QFhbv5_-xCPkGc6t4Im7hDbLB/view?usp=sharing)  and place them to ``datasets/ENAS``
-You can download the NB101 dataset  [here](https://drive.google.com/file/d/1kRnBNv4UoF7GKQsgy0BXmHypor5CJLj4/view?usp=sharing) and place them to ``datasets/nasbench101``
+You can download the ENAS dataset  [here](https://drive.google.com/file/d/1_BJLYq-QFhbv5_-xCPkGc6t4Im7hDbLB/view?usp=sharing)  and place them to ``datasets/ENAS``\
+You can download the NB101 dataset  [here](https://drive.google.com/file/d/1kRnBNv4UoF7GKQsgy0BXmHypor5CJLj4/view?usp=sharing) and place them to ``datasets/nasbench101``\
 You can download the NB201 dataset  [here](https://drive.google.com/file/d/1rPhQrDH_r8zyfoxfYpz4CieCNTaVmRT9/view?usp=sharing) and place them to ``datasets/nasbench201``
 
 
@@ -24,7 +25,7 @@ Also download [nasbench_only108.tfrecord](https://storage.googleapis.com/nasbenc
 
 Pretrained VAE models:
 
-Load [state dicts](https://drive.google.com/file/d/1Te2Achfx9AZZooSoYNNd73Q9gJ1ahSJb/view?usp=sharing) to folder ``state_dicts`` 
+Load [pretrained state dicts](https://drive.google.com/file/d/1Te2Achfx9AZZooSoYNNd73Q9gJ1ahSJb/view?usp=sharing) to folder ``state_dicts`` 
 
 ## Run experiments from the paper 
 ### Vae training:
@@ -62,8 +63,8 @@ python train_cell.py --data_set Imagenet16 --batch_size 256 --epochs 200 --val_p
 ```
 
 ## Bayesian Optimization 
-For performing bayesian Optimzation you must first follow the steps from the official [D-VAE repository](https://github.com/muhanzhang/D-VAE)
-change to directory `Bayesian Optimization`
+For performing Bayesian optimzation, first follow the steps from the official [D-VAE repository](https://github.com/muhanzhang/D-VAE) \
+Change to directory `Bayesian Optimization` 
 and run for BO on NAS-Bench-101
 ```bash
 ./run_bo_Nb101.sh 
@@ -76,7 +77,7 @@ to run BO on ENAS
 
 
 ## Citation
-
+```bash
 @inproceedings{LukasikSVGe2021,
   author    = {Jovita Lukasik and
                David Friede and
@@ -89,6 +90,7 @@ to run BO on ENAS
                China, July 18-22, 2021},
   year      = {2021},
 }
+```
 
 ## Reference
 

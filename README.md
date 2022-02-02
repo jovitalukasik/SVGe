@@ -53,7 +53,7 @@ cd Bayesian_Optimization and change the flat enas architcture represetation in a
 python fully_train_ENAS12.py
 ```
 To train the best NAS-Bench-101 cell include adjacency matrix and node operations in `Extrapolation_Ability/cell_training/train_cell.py`
-to train certain cell on CIFAR10
+To train certain cell on CIFAR10
 ```bash 
 python train_cell.py --data_set cifar10
 ```

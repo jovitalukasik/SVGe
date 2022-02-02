@@ -57,7 +57,7 @@ to train certain cell on CIFAR10
 ```bash 
 python train_cell.py --data_set cifar10
 ```
-to train on ImageNet16-120, first download Imagenet16 from [NAS-Bench-201 repo](https://github.com/D-X-Y/NATS-Bench)
+to train on ImageNet16-120, first download Imagenet16 from [NAS-Bench-201 repo](https://github.com/D-X-Y/NATS-Bench) and save it in 'Extrapolation_Ability/cell_training/data/'
 ```bash 
 python train_cell.py --data_set Imagenet16 --batch_size 256 --epochs 200 --val_portion 0.5
 ```

@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ```
 
 ## Datasets 
-You can download the ENAS dataset  [here](https://drive.google.com/file/d/1_BJLYq-QFhbv5_-xCPkGc6t4Im7hDbLB/view?usp=sharing)  and place them to ``datasets/ENAS``\
-You can download the NB101 dataset  [here](https://drive.google.com/file/d/1kRnBNv4UoF7GKQsgy0BXmHypor5CJLj4/view?usp=sharing) and place them to ``datasets/nasbench101``\
-You can download the NB201 dataset  [here](https://drive.google.com/file/d/1rPhQrDH_r8zyfoxfYpz4CieCNTaVmRT9/view?usp=sharing) and place them to ``datasets/nasbench201``
+You can download the prepared ENAS dataset  [here](https://drive.google.com/file/d/1_BJLYq-QFhbv5_-xCPkGc6t4Im7hDbLB/view?usp=sharing)  and place them to ``datasets/ENAS``\
+You can download the prepared NAS-Bench-101 dataset  [here](https://drive.google.com/file/d/1kRnBNv4UoF7GKQsgy0BXmHypor5CJLj4/view?usp=sharing) and place them to ``datasets/nasbench101``\
+You can download the prepared NAS-Bench-B201 dataset  [here](https://drive.google.com/file/d/1rPhQrDH_r8zyfoxfYpz4CieCNTaVmRT9/view?usp=sharing) and place them to ``datasets/nasbench201``
 
 
 Also download [nasbench_only108.tfrecord](https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord) and save it to ``datasets/nasbench101`` and save [NAS-Bench-201-v1_0-e61699.pth](https://drive.google.com/open?id=1SKW0Cu0u8-gb18zDpaAGi0f74UdXeGKs) in ``datasets/nasbench201``

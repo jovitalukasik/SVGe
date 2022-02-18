@@ -1,4 +1,9 @@
-## Based on Arch2vec Repo
+######################################################################################
+# Parts based on
+# Copyright (c) Shen Yan, arch2vec, 
+# https://github.com/MSU-MLSys-Lab/arch2vec
+# modified
+######################################################################################
 
 import sys, pathlib
 import os, glob, json

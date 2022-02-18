@@ -1,3 +1,10 @@
+######################################################################################
+# Parts based on
+# Copyright (c) Muhan Zhang, D-VAE, 
+# https://github.com/muhanzhang/D-VAE
+# modified
+######################################################################################
+
 import networkx as nx
 from tqdm import tqdm
 import numpy as np

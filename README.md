@@ -22,7 +22,7 @@ You can download the prepared NAS-Bench-101 dataset  [here](https://drive.google
 You can download the prepared NAS-Bench-B201 dataset  [here](https://drive.google.com/file/d/1rPhQrDH_r8zyfoxfYpz4CieCNTaVmRT9/view?usp=sharing) and place them to ``datasets/nasbench201``
 
 
-Also download [nasbench_only108.tfrecord](https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord) and save it to ``datasets/nasbench101`` and save [NAS-Bench-201-v1_0-e61699.pth](https://drive.google.com/open?id=1SKW0Cu0u8-gb18zDpaAGi0f74UdXeGKs) in ``datasets/nasbench201``
+Also download [nasbench_only108.tfrecord](https://storage.googleapis.com/nasbench/nasbench_only108.tfrecord) and save it to ``datasets/nasbench101`` and save *NAS-Bench-201-v1_0-e61699.pth* available on the [NAS-Bench-201 github page](https://github.com/D-X-Y/NAS-Bench-201?tab=readme-ov-file) in ``datasets/nasbench201``
 
 
 Pretrained VAE models:
